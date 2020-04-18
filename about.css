@@ -50,7 +50,6 @@ section h1{
 @media screen and (max-width: 768px){
   .c-about img{
     width: 30em;
-    margin: 0 3em 0 0;
   }
 
   .c-about h3{
@@ -71,8 +70,8 @@ section h1{
   }
 
   .c-about h3{
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin: 1.5em 0 0 0;
-    padding: 0 3em;
+    padding: 0 4em;
   }
 }
