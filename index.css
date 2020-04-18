@@ -15,6 +15,7 @@ html{
   background: white;
   margin: 5px;
 }
+
 nav {
   position: relative;
 }
@@ -45,7 +46,7 @@ nav {
   align-items: center;
 }
 
-.nav-link,.open{
+.nav-links.open{
   clip-path: circle(100em at 80% -15%);
   -webkit-clip-path: circle(100em at 80% -15%);
   pointer-events: all;
@@ -127,4 +128,51 @@ header ul li{
 
 header ul li img:hover{
   transform: scale(1.5);
+}
+
+@media screen and (max-width: 768px){
+  
+  header h1{
+    font-size: 1.5em;
+  }
+
+  header ul li{
+    margin: 4em 1.5em;
+  }
+
+  .nav-links{
+    clip-path:circle(32px at 92% 8.5%);
+    -webkit-clip-path: circle(32px at 92% 8.5%);
+    transition: all 1s ease-out;
+  }
+
+  .nav-link,.open{
+    clip-path: circle(100em at 80% -15%);
+    -webkit-clip-path: circle(100em at 80% -15%);
+    pointer-events: all;
+  }
+}
+
+
+@media screen and (max-width: 480px){
+
+  header h1{
+    font-size: 1.2em;
+  }
+
+  header ul li{
+    margin: 4em 1.5em;
+  }
+
+  .nav-links{
+    clip-path:circle(32px at 90% 8.5%);
+    -webkit-clip-path: circle(32px at 90% 8.5%);
+    transition: all 1s ease-out;
+  }
+
+  .nav-link,.open{
+    clip-path: circle(100em at 80% -15%);
+    -webkit-clip-path: circle(100em at 80% -15%);
+    pointer-events: all;
+  }
 }

@@ -43,6 +43,36 @@ section h1{
   color: rgba(255, 255, 255, 0.671);
   font-size: 3em;
   font-weight: 400;
-  margin: 1em 0 0 0;
+  margin: 0.5em 0 0 0;
   text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px){
+  .c-about img{
+    width: 30em;
+    margin: 0 3em 0 0;
+  }
+
+  .c-about h3{
+    font-size: 2em;
+    margin: 0 2em 0 1em;
+  }
+}
+
+@media screen and (max-width: 480px){
+
+  .c-about div{
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .c-about img{
+    width: 16em;
+  }
+
+  .c-about h3{
+    font-size: 1.3em;
+    margin: 1.5em 0 0 0;
+    padding: 0 3em;
+  }
 }

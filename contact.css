@@ -12,14 +12,14 @@ html{
 section{
   position: relative;
   text-align: center;
-  height: 120vh;
+  height: 110vh;
 }
 
 section h1{
   color: rgba(255, 255, 255, 0.671);
   font-size: 3em;
   font-weight: 400;
-  margin: 1em 0 0 0;
+  margin: 0.5em 0 0 0;
   text-transform: capitalize;
 }
 
@@ -39,7 +39,7 @@ section h1{
 }
 
 .c-contact form input, label{
-  margin: 0.5em 0;
+  margin: 0.6em 0;
 }
 
 .c-contact label{
@@ -55,21 +55,44 @@ section h1{
   background-color: #3e5c7665;
   color: #ffffffa1;
   border-radius: 12px;
-  box-shadow: 0px 0px 25px rgba(96,151,198,.70);
+  box-shadow: 0px 0px 10px rgba(96,151,198,.70);
   transition: 0.25s;
 }
 
 .c-contact input[type="submit"]{
   padding: 1em 5em;
-  margin: 3em 0 0 0;
+  margin: 2em 0 0 0;
   font-size: 18px;
   border: none;
   background-color: #3e5c7665;
   color: #ffffffa1;
   border-radius: 16px;
   box-shadow: 0px 0px 16px rgba(96,151,198,.70);
+  cursor: pointer;
 }
 
 .c-contact input[type="text"]:focus, input[type="email"]:focus{
   transform: scale(1.25);
+}
+
+@media screen and (max-width: 768px){
+  .c-contact input[type="text"], input[type="email"], input[type="submit"]{
+    padding: 1em 1.2em;
+    font-size: 1em;
+  }
+
+  .c-contact label{
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .c-contact input[type="text"], input[type="email"], input[type="submit"]{
+    padding: 1em;
+    font-size: 1em;
+  }
+
+  .c-contact label{
+    font-size: 1em;
+  }
 }
