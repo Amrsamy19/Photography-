@@ -170,8 +170,8 @@ header ul li img:hover{
   }
 
   .nav-links{
-    clip-path:circle(32px at 90.2% 8.5%);
-    -webkit-clip-path: circle(32px at 90.2% 8.5%);
+    clip-path:circle(32px at 90% 8.5%);
+    -webkit-clip-path: circle(32px at 90% 8.5%);
     transition: all 1s ease-out;
   }
 
@@ -182,7 +182,7 @@ header ul li img:hover{
   }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 380px){
   header ul li{
     margin: 2em 1.5em;
   }
