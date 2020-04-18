@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+html{
+  background: radial-gradient(circle, #3e5c76, #000022);
+}
+
+section{
+  position: relative;
+  text-align: center;
+  height: 100vh;
+}
+
+.c-about div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5em 0 0 0;
+}
+
+.c-about h3{
+  color: rgba(255, 255, 255, 0.876);
+  font-size: 1.6em;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-align: center;
+  width: 25em;
+  margin: 0 5em 0 0;
+}
+
+.c-about img{
+  width: 24em;
+  border-radius: 10em;
+  box-shadow: 2px 2px 30px 8px rgba(194,156,31,1);
+}
+
+section h1{
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 3em;
+  font-weight: 400;
+  margin: 1em 0 0 0;
+  text-transform: capitalize;
+}
