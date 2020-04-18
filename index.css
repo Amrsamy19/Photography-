@@ -189,8 +189,8 @@ header ul li img:hover{
   }
 
   .nav-links{
-    clip-path:circle(32px at 89% 8%);
-    -webkit-clip-path: circle(32px at 89% 8%);
+    clip-path:circle(32px at 89% 7.6%);
+    -webkit-clip-path: circle(32px at 89% 7.6%);
     transition: all 1s ease-out;
   }
 
