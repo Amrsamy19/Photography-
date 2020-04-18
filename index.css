@@ -7,6 +7,7 @@
 
 html{
   background: radial-gradient(circle, #3e5c76, #000022);
+  overflow: hidden;
 }
 
 .line {
@@ -170,8 +171,8 @@ header ul li img:hover{
   }
 
   .nav-links{
-    clip-path:circle(32px at 89.8% 7.9%);
-    -webkit-clip-path: circle(32px at 89.8% 7.9%);
+    clip-path:circle(32px at 89.8% 7.5%);
+    -webkit-clip-path: circle(32px at 89.8% 7.5%);
     transition: all 1s ease-out;
   }
 
@@ -188,8 +189,8 @@ header ul li img:hover{
   }
 
   .nav-links{
-    clip-path:circle(32px at 89% 8.2%);
-    -webkit-clip-path: circle(32px at 89% 8.2%);
+    clip-path:circle(32px at 89% 8%);
+    -webkit-clip-path: circle(32px at 89% 8%);
     transition: all 1s ease-out;
   }
 
